@@ -25,7 +25,7 @@ class Pedido:
               f"\n----------------------------------------------"
               )
 
-    #encapsulamento
+    #encapsulamento - METODOS QUE INTERMEDIAM O ACESSO OU A ALTEÇÃO 
     def setNum(self, numero): #setando-alterando indireamente pois num é private
         self.__num=numero
 
